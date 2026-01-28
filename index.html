@@ -1,18 +1,23 @@
 <!doctype html>
 <html>
-    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
         <link rel="stylesheet" href="styles.css">
+        <title>The Daily Dribble Newsletter</title>
     </head>
     <body>
-        <h1>THE DAILY DRIBBLE</h1>
+        <h1 id="title">THE DAILY DRIBBLE</h1>
         
         <!-- Image credit: Thomas Serer https://unsplash.com/@jesusance -->
-        <img src="stadium.jpg" />
+        <img class="image-stadium" src="stadium.jpg" alt="Soccer stadium"/>
         
-        <p>Your daily dose of soccer stories from on and off the pitch. Interviews,  breaking news and more!</p>
+        <p class="text desc">Your daily dose of soccer stories from on and off the pitch. Interviews, analyses, breaking news and more!</p>
 
+        <input class="field" type="email" placeholder="ENTER YOUR EMAIL">
 
-        <footer>Read our terms of service.</footer>
+        <button class="btn" type="button">JOIN NOW</button>
+
+        <footer class="text">Read our <a class="link" href="https://www.google.com" target="_blank">terms of service.</a></footer>
     </body>
 </html>
 
@@ -20,7 +25,7 @@
 THE DAILY DRIBBLE
 
 Your daily dose of soccer stories from on and off the pitch. 
-Interviews,  breaking news and more!
+Interviews, analyses, breaking news and more!
 
 ENTER YOUR EMAIL
 JOIN NOW
